@@ -1,6 +1,6 @@
-# 🎓 Student Performance Prediction using Machine Learning
+# Student Performance Prediction using Machine Learning
 
-## 📌 Overview
+## Overview
 This project focuses on analyzing student performance data and predicting **math scores** using machine learning regression techniques.  
 The workflow follows a complete data science pipeline, including Exploratory Data Analysis (EDA), data preprocessing, feature engineering, model building, evaluation, and comparison.
 
@@ -8,7 +8,7 @@ The objective is to understand how academic and socio-economic factors influence
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Dataset Name:** Student Performance Dataset
 - **Description:** Contains demographic information, educational background, and exam scores of students.
 - **Key Features:**
@@ -21,7 +21,7 @@ The objective is to understand how academic and socio-economic factors influence
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 EDA was performed to understand the structure and patterns in the dataset.
 
 ### Key EDA Steps:
@@ -38,7 +38,7 @@ EDA was performed to understand the structure and patterns in the dataset.
 
 ---
 
-## 🧠 Feature Engineering
+## Feature Engineering
 - Created new features:
   - **Total Score** = Math + Reading + Writing
   - **Average Score** = Total Score / 3
@@ -46,7 +46,7 @@ EDA was performed to understand the structure and patterns in the dataset.
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 - Separated target variable (**math score**) and input features
 - Applied **one-hot encoding** to categorical variables
 - Split data into training (80%) and testing (20%) sets
@@ -54,7 +54,7 @@ EDA was performed to understand the structure and patterns in the dataset.
 
 ---
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 The following regression models were implemented:
 
 - **Linear Regression** (baseline model)
@@ -63,7 +63,7 @@ The following regression models were implemented:
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 Models were evaluated using:
 - **Mean Squared Error (MSE)**
 - **R² Score**
@@ -75,7 +75,7 @@ Models were evaluated using:
 
 ---
 
-## 🧪 Model Diagnostics
+## Model Diagnostics
 - Residual analysis was performed to validate linear regression assumptions.
 - Residual plots confirmed:
   - Linearity
@@ -84,7 +84,7 @@ Models were evaluated using:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Programming Language:** Python
 - **Libraries:**
   - Pandas, NumPy
@@ -95,14 +95,14 @@ Models were evaluated using:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 This project demonstrates a complete machine learning workflow for predicting student performance.  
 Through EDA, feature engineering, and regression modeling, meaningful insights were derived and reliable predictive models were built.  
 The results confirm that linear regression and its regularized variants are effective for this problem.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Try non-linear models such as Random Forest or XGBoost
 - Perform hyperparameter tuning using cross-validation
 - Deploy the model using a web framework like Flask or Streamlit
