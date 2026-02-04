@@ -109,7 +109,7 @@ The results confirm that linear regression and its regularized variants are effe
 
 ---
 
-## 👤 Author
+## Author
 **Raghu Ram**  
 BTech Student | Aspiring AI Engineer
 
